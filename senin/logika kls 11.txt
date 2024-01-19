@@ -1,0 +1,11 @@
+diberikan angka 25 60 dan 90 cari variabel yg tidak bisa di bagi 2
+ 
+$angka = [25, 60, 90];
+
+if ($angka % 2 == 0) {
+ $hasil "angka bisa di bagi 2";
+} else ($angka % 2 == 1) {
+ $hasil "angka tidak bisa dibagi 2";
+}
+
+echo $hasil;
